@@ -104,6 +104,28 @@ p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*.inner-box {
+    width: 100%;
+	border-style: ridge;
+   
+}
+
+.lower-content {
+    width: 100%;
+  background-color: #fff; 
+}*/
+
+.textLink {
+	{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+}
+
 .text{
 	font-family: 'Source Sans Pro', sans-serif;
 }

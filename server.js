@@ -14,8 +14,11 @@ app.use(partials());
 app.get('/', routes.index);
 app.get('/about', routes.about);
 app.get('/services', routes.services);
+app.get('/services/:uname', routes.servicesDetail);
 app.get('/contact', routes.contact);
 app.get('/blog', routes.blog);
+app.get('/blog/:uname', routes.blogDetail);
+
 
 app.get('/error', function(req, res, next){
  	next(new Error('A contrived error'));

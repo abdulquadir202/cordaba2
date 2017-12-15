@@ -21,119 +21,29 @@
     	<div class="container">
         	
             <div class="row clearfix">
-            <div class="services-block col-md-6 col-lg-6 col-sm-12 col-xs-12">
-            <% if(item && item.length > 0){ %>
-                    <% for(var i=0;i<item.length;i++){ %>
-                   <a href="services/<%= item[i].uName  %>">
-                        <div class="inner-box hvr-float">
-                            <figure class="image-box"><img src="images/resource/services-2.jpg" alt=""></figure>
-                            <div class="lower-content">
+            	
+                    <% if(item && item.length > 0){ %>
+                    <% for(var i=0;i<item.length;i++){ %>     
+                   <a href="/services/<%= item[i].uName %>">
+                    <div class="services-block col-lg-4 col-md-4 col-xs-12">
+                	<div class="inner-box hvr-float">
+                    	<div class="image">
+                        	<img src="images/resource/services-2.jpg" alt="">
+                        </div>
+
+                        <div class="lower-box">
+                        	<div class="content">
                                 <h4><%= item[i].name %></h4>
                                 <p><%= item[i].price %></p>
+                            	<!-- <a href="/services" class="arrow-box"><span class="fa fa-angle-right"></span></a> -->
                                 <a href="#" class="theme-btn btn-style-two">BOOK NOW</a>
                             </div>
                         </div>
-                    </a>
+                        </div>
+                    </div>
+                     </a>
                      <% } %>
-               <% }%>
-      
-            </div>	
-              
-            	<div class="services-block col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="/services"><img src="images/resource/services-1.jpg" alt="" /></a>
-                        </div>
-                        <div class="lower-box">
-                        	<div class="content">
-                            	<a href="/services" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                            	<h3><a href="/services">Refinishing Floor</a></h3>
-                                <div class="text">Clean & Dust free</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--services Block-->
-            	<div class="services-block col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="/services"><img src="images/resource/services-3.jpg" alt="" /></a>
-                        </div>
-                        <div class="lower-box">
-                        	<div class="content">
-                            	<a href="/services" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                            	<h3><a href="/services">Custom Design</a></h3>
-                                <div class="text">Colours and Styles</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--services Block-->
-            	<div class="services-block col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="/services"><img src="images/resource/services-2.jpg" alt="" /></a>
-                        </div>
-                        <div class="lower-box">
-                        	<div class="content">
-                            	<a href="/services" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                            	<h3><a href="/services">Floor Repair</a></h3>
-                                <div class="text">Fix a Squeaky Floor Board</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--services Block-->
-            	<div class="services-block col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="/services"><img src="images/resource/services-4.jpg" alt="" /></a>
-                        </div>
-                        <div class="lower-box">
-                        	<div class="content">
-                            	<a href="/services" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                            	<h3><a href="/services">Wooden Staircase</a></h3>
-                                <div class="text">900+ experts</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--services Block-->
-            	<div class="services-block col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="/services"><img src="images/resource/services-5.jpg" alt="" /></a>
-                        </div>
-                        <div class="lower-box">
-                        	<div class="content">
-                            	<a href="/services" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                            	<h3><a href="/services">Tiles Flooring</a></h3>
-                                <div class="text">Ceramiche Refine</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!--services Block-->
-            	<div class="services-block col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="/services"><img src="images/resource/services-6.jpg" alt="" /></a>
-                        </div>
-                        <div class="lower-box">
-                        	<div class="content">
-                            	<a href="/services" class="arrow-box"><span class="fa fa-angle-right"></span></a>
-                            	<h3><a href="/services">Floor Paving</a></h3>
-                                <div class="text">Quality Solid </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
+               <% }%>  
             </div>
 
         </div>
