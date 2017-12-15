@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "cordoba",
   "version": "1.0.0",
   "main": "server.js",
@@ -9,21 +10,44 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abdulquadir202/cordoba.git"
+=======
+  "name": "cordaba2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulquadir202/cordaba2.git"
+>>>>>>> abff7e1ad9e5176dee2a42b33c974514995cdbca
   },
   "author": "abdul",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/abdulquadir202/cordoba/issues"
   },
   "homepage": "https://github.com/abdulquadir202/cordoba#readme",
+=======
+    "url": "https://github.com/abdulquadir202/cordaba2/issues"
+  },
+  "homepage": "https://github.com/abdulquadir202/cordaba2#readme",
+>>>>>>> abff7e1ad9e5176dee2a42b33c974514995cdbca
   "dependencies": {
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+<<<<<<< HEAD
     "express-generator": "^4.15.5",
     "express-partials": "^0.1.0",
     "node-rest-client": "^3.1.0"
   },
   "devDependencies": {},
   "description": ""
+=======
+    "express-partials": "^0.3.0"
+  }
+>>>>>>> abff7e1ad9e5176dee2a42b33c974514995cdbca
 }

@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 var env = require('../env'),
 	config = require('../config/'+env.name),
 	Client = require('node-rest-client').Client,
     client = new Client();
 
+=======
+>>>>>>> abff7e1ad9e5176dee2a42b33c974514995cdbca
 module.exports.index = index;
 
 function index (req, res) {
@@ -30,6 +33,7 @@ res.render('contact', {
 });
 };
 
+<<<<<<< HEAD
 module.exports.services = services;
 
 function services(req,res) {
@@ -160,3 +164,22 @@ function blogDetail(req,res) {
 	});
 	
 };
+=======
+module.exports.service = service;
+
+function service (req, res) {
+res.render('service', {
+	layout:'layout',
+	title:'service page'
+});
+};
+
+module.exports.blog = blog;
+
+function blog (req, res) {
+res.render('blog', {
+	layout:'layout',
+	title:'blog page'
+});
+};
+>>>>>>> abff7e1ad9e5176dee2a42b33c974514995cdbca
